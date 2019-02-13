@@ -9,16 +9,19 @@ https://www.youtube.com/watch?v=mCUNrRtVVWY&t=255s
 
 ## 架構
 1. 主程式: ConsoleUI
-2. 函式庫: DemoLibrary
-  - ILogger
-    * Log(string)
-  - IDataAccess
-    * LoadData()
-	* SaveData(string)
-  - IBusiness
-    * ProcessData()
   - IApplication
     * Run()
+  - ContainerConfig (autofac container)
+    * Configure()
+2. 函式庫: DemoLibrary
+  - Utilities/ILogger
+    * Log(string)
+  - Utilities/IDataAccess
+    * LoadData()
+	* SaveData(string)
+  - IBusinessLogic
+    * ProcessData()
+
 
 ## 環境
 - VS2017
