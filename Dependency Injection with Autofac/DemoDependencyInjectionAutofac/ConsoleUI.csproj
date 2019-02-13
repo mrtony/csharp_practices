@@ -57,8 +57,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DemoLibrary\DemoLibrary.csproj">
-      <Project>{299a9dc4-23de-4ab1-b2ef-79a6537e6156}</Project>
+    <ProjectReference Include="DemoLibrary\DemoLibrary.csproj">
+      <Project>{ecd1e109-4f29-49ad-9546-d484a4ecfe4f}</Project>
       <Name>DemoLibrary</Name>
     </ProjectReference>
   </ItemGroup>
